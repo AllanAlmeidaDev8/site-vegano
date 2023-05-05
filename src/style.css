@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+.card-largura{
+    max-width: 18rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-carrossel-um{
+    object-fit: cover;
+    object-position: 0 90%;
+    height: 400px;
+}
+.imagem-carrossel-dois{
+    object-fit: cover;
+    height: 400px;
+}
+.font-titulo{
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.63);
+}
+.cor-especial{
+    color: darkred !important;
+    
+}
+.cor-btn{
+    background-color: darkred;
+    color: white;
+}
+.cor-borda{
+    border: 1px solid darkred;
+}
+.card-posicao-imagem{
+    object-fit: cover;
+    
+    height: 200px;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline darkred;
+}
